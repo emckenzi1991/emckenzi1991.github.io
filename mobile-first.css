@@ -1,0 +1,194 @@
+html {
+  font-family: "Patrick Hand";
+}
+html {
+  background: linear-gradient(135deg, #f0e7fb 5%, #fbc2eb 100%);
+  color: black;
+}
+hr {
+  border: 1px solid rgb(147, 8, 217);
+  margin: auto;
+}
+
+/* Navigation styles */
+nav {
+  background-color: rgb(239, 183, 222);
+  padding: 10px;
+}
+a {
+  color: rgb(147, 8, 217);
+  text-decoration: none;
+}
+nav a:hover {
+  color: rgb(18, 0, 26);
+}
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+/*form styles */
+textarea {
+  width: 55%;
+  height: 275px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+/* mobile screen code for home page */
+@media (max-width: 700px) {
+  /* Button styles */
+  button {
+    background-color: rgb(147, 8, 217);
+    color: rgb(255, 251, 251);
+    border: none;
+    padding: 0.25em 0.25em;
+    cursor: pointer;
+    border-radius: 0.5em;
+  }
+  button:hover {
+    background-color: rgb(199, 19, 115);
+    color: white;
+    box-shadow: inset 0 0 1rem rgba(147, 8, 217, 0.5),
+      0 0 10px rgba(147, 8, 217, 0.5);
+  }
+  button {
+    padding: 0.5em 0.5em;
+    font-size: 0.9rem;
+  }
+
+  /* Header styles */
+  header #profile-pic {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 15%;
+    border: rgba(147, 8, 217) solid 2px;
+    display: inline-block;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+  }
+  header h1 {
+    color: rgb(18, 0, 26);
+    font-size: 2em;
+    text-align: center;
+    transition-duration: 0.3s;
+  }
+  header .contact-info {
+    text-align: end;
+    float: inline-end;
+    font-size: 1rem;
+    transition-property: font-size;
+    transition-duration: 0.3s;
+  }
+  header p {
+    margin: 0.4rem;
+  }
+}
+
+/* Desktop screen code for home page */
+@media (min-width: 701px) {
+  header #profile-pic {
+    width: 9em;
+    height: 9em;
+    border-radius: 15%;
+    border: rgba(147, 8, 217) solid 2px;
+    display: inline-block;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+  }
+
+  header h1 {
+    color: rgb(18, 0, 26);
+    font-size: 3rem;
+    text-align: center;
+    transition-duration: 0.3s;
+  }
+
+  header .contact-info {
+    text-align: end;
+    float: inline-end;
+    font-size: 1.2rem;
+    transition-property: font-size;
+    transition-duration: 0.4s;
+  }
+
+  /* Button styles */
+  button {
+    background-color: rgb(147, 8, 217);
+    color: rgb(255, 251, 251);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  button:hover {
+    background-color: rgb(199, 19, 115);
+    color: white;
+    box-shadow: inset 0 0 5px rgba(147, 8, 217, 0.5),
+      0 0 10px rgba(147, 8, 217, 0.5);
+  }
+}
+
+/* moblie screen code cake portfolie */
+@media (max-width: 1140px) {
+  /* Cake Image styles */
+  img[alt*="tall"] {
+    max-width: auto;
+    height: 10rem;
+  }
+  img[alt*="wide"] {
+    width: 13rem;
+  }
+  img {
+    border-radius: 1rem;
+    margin: 0.25rem;
+    box-shadow: rgba(147, 8, 217, 0.5) 0px 0px 1rem;
+    transition: width 0.9s ease-in-out, height 0.9s ease-in-out;
+  }
+}
+/* desktop screen code cake portfolie */
+@media (min-width: 1141px) {
+  /* cake portfolio styles */
+  .cake-portfolio {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .cake-pics {
+    display: inline-block;
+    width: 70%;
+    border-left: 2px solid rgb(147, 8, 217);
+    padding-left: 10px;
+  }
+
+  .cakeUL {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  /* Cake Image styles */
+  img[alt*="tall"] {
+    max-width: auto;
+    height: 400px;
+  }
+  img[alt*="wide"] {
+    width: 520px;
+  }
+  img {
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: rgba(147, 8, 217, 0.5) 0px 0px 10px;
+    transition: width 0.9s ease-in-out, height 0.9s ease-in-out;
+  }
+}

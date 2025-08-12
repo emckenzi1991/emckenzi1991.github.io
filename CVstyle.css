@@ -1,0 +1,122 @@
+html {
+  font-size: 18px;
+  font-family: "Patrick Hand";
+}
+
+html {
+  background: linear-gradient(135deg, #f0e7fb 0%, #fbc2eb 100%);
+  color: black;
+}
+hr {
+  border: 1px solid rgb(147, 8, 217);
+  margin: auto;
+}
+
+header #profile-pic {
+  width: 9em;
+  height: 9em;
+  border-radius: 15%;
+  border: rgba(147, 8, 217) solid 2px;
+  display: inline-block;
+}
+
+header h1 {
+  color: rgb(18, 0, 26);
+  font-size: 36px;
+  text-align: center;
+}
+
+header .contact-info {
+  text-align: end;
+  float: inline-end;
+}
+
+/* Button styles */
+button {
+  background-color: rgb(147, 8, 217);
+  color: rgb(255, 251, 251);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: rgb(199, 19, 115);
+  color: white;
+  box-shadow: inset 0 0 5px rgba(147, 8, 217, 0.5),
+    0 0 10px rgba(147, 8, 217, 0.5);
+}
+
+/* Navigation styles */
+nav {
+  background-color: rgb(239, 183, 222);
+  padding: 10px;
+}
+
+a {
+  color: rgb(147, 8, 217);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgb(18, 0, 26);
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* cake portfolio styles */
+.cake-portfolio {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 70%;
+  display: inline-block;
+  vertical-align: top;
+}
+.cake-pics {
+  display: inline-block;
+  width: 70%;
+  border-left: 2px solid rgb(147, 8, 217);
+  padding-left: 10px;
+}
+
+.cakeUL {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+}
+/* Cake Image styles */
+img[alt*="tall"] {
+  max-width: auto;
+  height: 400px;
+}
+img[alt*="wide"] {
+  width: 520px;
+}
+img {
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: rgba(147, 8, 217, 0.5) 0px 0px 10px;
+}
+
+/*form styles */
+textarea {
+  width: 55%;
+  height: 275px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid;
+}
