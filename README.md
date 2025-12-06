@@ -15,7 +15,7 @@
   <a id="top"></a>
   <nav>
     <ul class="main-nav">
-      <li><a href="CV.html">Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li><a href="cakes.html">Cakes</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
@@ -198,7 +198,7 @@
   </head>
   <nav>
     <ul class="main-nav">
-      <li><a href="CV.html">Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li><a href="cakes.html">Cakes</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
@@ -247,7 +247,7 @@
 </head>
   <nav>
     <ul class="main-nav">
-      <li><a href="CV.html">Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li><a href="cakes.html">Cakes</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
