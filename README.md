@@ -287,14 +287,4 @@
 </html>
 
 
-![cake10](https://github.com/user-attachments/assets/c61efaf9-4047-4e1b-8db0-4abb76e01c41)
-![cake9](https://github.com/user-attachments/assets/47a85241-ea64-4717-90b5-d33346af1a70)
-![cake8](https://github.com/user-attachments/assets/bb581e30-bfcb-433c-abc4-f2b77f03ea0f)
-![cake7](https://github.com/user-attachments/assets/4d281f1a-906a-4ddb-8e2d-52cdd5192de0)
-![cake6](https://github.com/user-attachments/assets/a9ad3f6d-1714-49fb-9b53-fc8156c6009f)
-![cake5](https://github.com/user-attachments/assets/7dbb7b14-d024-418b-b002-7cc6b7a26564)
-![cake4](https://github.com/user-attachments/assets/781c94c5-89c0-4cde-b305-c5f3004745e6)
-![cake3](https://github.com/user-attachments/assets/6b91623a-39d7-4069-8e9a-4116a6cb243a)
-![cake2](https://github.com/user-attachments/assets/ee4edf2a-be41-43b5-af00-75214f360df8)
-![cake1](https://github.com/user-attachments/assets/f2e9bbad-967a-4e1b-9d3e-06fe55801bbf)
 
