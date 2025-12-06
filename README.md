@@ -183,9 +183,110 @@
     <a href="#top"> <button>back to top</button></a>
   </body>
 </html>
-[mobile-first.css](https://github.com/user-attachments/files/23972458/mobile-first.css)
-[contact.html](https://github.com/user-attachments/files/23972455/contact.html)
-[Cakes.html](https://github.com/user-attachments/files/23972453/Cakes.html)
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cakes</title>
+    <link rel="stylesheet" href="mobile-first.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap"
+      rel="stylesheet"
+    />
+    <a id="top"></a>
+  </head>
+  <nav>
+    <ul class="main-nav">
+      <li><a href="CV.html">Home</a></li>
+      <li><a href="cakes.html">Cakes</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <body>
+    <div class="cakeUL">
+      <h1>My Cake Portfolio</h1>
+      <p>
+        Here are some examples of cakes I have decorated during my time at
+        Walmart.
+      </p>
+      <ul>
+        <li><span>Teir Cakes</span></li>
+        <li>Sheet Cakes</li>
+        <li>Cookie Cakes</li>
+        <li>Cupcakes</li>
+        <li>Fruit Top Cakes</li>
+        <li>Edible Images</li>
+      </ul>
+    </div>
+    <div class="cake-pics">
+      <img src="cake1.JPG" alt="Wedding Cake1 tall" />
+      <img src="cake3.JPG" alt="Buffalo Bills Tier3 tall" />
+      <img src="cake6.JPG" alt="Summer Tier6 tall" />
+      <img src="cake4.JPG" alt="USA Cake4 tall" />
+      <img src="cake7.jpg" alt="Princess Cake7 tall" />
+      <img src="cake5.JPG" alt="Halloween Cookie5 tall" />
+      <img src="cake9.jpeg" alt="baby shower tall" />
+      <img src="cake10.jpg" alt="fox tall" />
+      <img src="cake8.JPG" alt="Pie Slice8 wide" />
+      <img src="cake2.JPG" alt="Taco Cake2 wide" />
+    </div>
+  </body>
+  <a href="#top"> <button>back to top</button></a>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+     <link rel="stylesheet" href="mobile-first.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+</head>
+  <nav>
+    <ul class="main-nav">
+      <li><a href="CV.html">Home</a></li>
+      <li><a href="cakes.html">Cakes</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+<body>
+    <h2>Send Me a Message!</h2>
+            <!-- Contact Form -->
+                <form action="#">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Jane Doe"><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="JDoe@email.com"><br><br>
+
+                    <label for="organization">Organization:</label>
+                    <input type="text" id="organization" name="organization" placeholder="Walmart"><br><br>
+
+                    <label for="reason">Reason for Contact:</label>
+                    <select id="reason" name="reason" required>
+                        <option value="inquiry">General Inquiry</option>
+                        <option value="collaboration">Collaboration</option>
+                        <option value="feedback">Job Offer</option>
+                        <option value="other">Other</option>
+                    </select><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" required rows="4" cols="50" placeholder="Enter Message Here &lt;3"></textarea><br><br>
+
+                    <button type="submit">Send Message!</button>
+                </form>
+                <br>
+                 <a href="https://www.linkedin.com/in/elizabeth-mckenzie-1b0a4b1a2/">
+      <button>Find Me On Linkedin</button>
+      <a href="https://github.com/emckenzi1991">
+      <button>Find Me On GitHub</button>
+</body>
+</html>
+
+
 ![cake10](https://github.com/user-attachments/assets/c61efaf9-4047-4e1b-8db0-4abb76e01c41)
 ![cake9](https://github.com/user-attachments/assets/47a85241-ea64-4717-90b5-d33346af1a70)
 ![cake8](https://github.com/user-attachments/assets/bb581e30-bfcb-433c-abc4-f2b77f03ea0f)
